@@ -40,57 +40,57 @@ public class RegistrationPage {
     }
 
     public RegistrationPage typeFirstName() {
-        firstNameInput.setValue(this.data.getFirstName());
+        firstNameInput.setValue(data.getFirstName());
         return this;
     }
 
     public RegistrationPage typeLastName() {
-        lastNameInput.setValue(this.data.getLastName());
+        lastNameInput.setValue(data.getLastName());
         return this;
     }
 
     public RegistrationPage typeEmail() {
-        emailInput.setValue(this.data.getEmail());
+        emailInput.setValue(data.getEmail());
         return this;
     }
 
     public RegistrationPage typeNumber() {
-        numberInput.setValue(this.data.getNumber());
+        numberInput.setValue(data.getNumber());
         return this;
     }
 
     public RegistrationPage selectGender() {
-        $(byText(this.data.getGender())).click();
+        $(byText(data.getGender())).click();
         return this;
     }
 
     public RegistrationPage typeAddress() {
-        addressInput.setValue(this.data.getAddress());
+        addressInput.setValue(data.getAddress());
         return this;
     }
 
     public RegistrationPage selectState() {
         stateList.scrollTo().click();
-        $(byText(this.data.getState())).click();
+        $(byText(data.getState())).click();
         return this;
     }
 
     public RegistrationPage selectCity() {
         cityList.scrollTo().click();
-        $(byText(this.data.getCity())).click();
+        $(byText(data.getCity())).click();
         return this;
     }
 
     public RegistrationPage typeSubjects() {
         subjectsInput.scrollTo();
-        for (String subject : this.data.getSubjects())
+        for (String subject : data.getSubjects())
             subjectsInput.setValue(subject).pressEnter();
         return this;
     }
 
     public RegistrationPage selectHobbies() {
         hobbiesSelect.scrollTo();
-        for (String hobby : this.data.getHobbies())
+        for (String hobby : data.getHobbies())
             hobbiesSelect.$(byText(hobby)).click();
         return this;
     }
@@ -101,7 +101,7 @@ public class RegistrationPage {
     }
 
     public RegistrationPage typeDateOfBirth() {
-        CalendarComponent calendar = new CalendarComponent(dateOfBirthInput, this.data);
+        CalendarComponent calendar = new CalendarComponent(dateOfBirthInput, data);
         calendar.selectDate();
         return this;
     }
@@ -135,20 +135,20 @@ public class RegistrationPage {
 
     //Проверка результирующей таблицы______________________
     public void checkResultTable() {
-        checkResultTableValue("Student Name", this.data.getFirstName() + " " + this.data.getLastName());
-        checkResultTableValue("Student Email", this.data.getEmail());
-        checkResultTableValue("Gender", this.data.getGender());
-        checkResultTableValue("Mobile", this.data.getNumber());
+        checkResultTableValue("Student Name", data.getFirstName() + " " + data.getLastName());
+        checkResultTableValue("Student Email", data.getEmail());
+        checkResultTableValue("Gender", data.getGender());
+        checkResultTableValue("Mobile", data.getNumber());
 
         checkResultTableValue("Date of Birth",
-                this.data.getBirthDay() + " " +
-                        this.data.getBirthMonth() + "," +
-                        this.data.getBirthYear());
-        checkResultTableValue("Subjects", String.join(", ", this.data.getSubjects()));
-        checkResultTableValue("Hobbies", String.join(", ", this.data.getHobbies()));
-        checkResultTableValue("Picture", this.data.getFileURL());
-        checkResultTableValue("Address", this.data.getAddress());
-        checkResultTableValue("State and City", this.data.getState() + " " + this.data.getCity());
+                data.getBirthDay() + " " +
+                        data.getBirthMonth() + "," +
+                        data.getBirthYear());
+        checkResultTableValue("Subjects", String.join(", ", data.getSubjects()));
+        checkResultTableValue("Hobbies", String.join(", ", data.getHobbies()));
+        checkResultTableValue("Picture", data.getFileURL());
+        checkResultTableValue("Address", data.getAddress());
+        checkResultTableValue("State and City", data.getState() + " " + data.getCity());
     }
     //________________________________________________________
 }

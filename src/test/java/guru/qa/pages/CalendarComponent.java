@@ -12,16 +12,16 @@ public class CalendarComponent {
 
     public CalendarComponent(SelenideElement locator, RegistrationData data) {
         this.locator = locator;
-        this.year = data.getBirthYear();
-        this.month = data.getBirthMonth();
-        this.day = data.getBirthDay();
+        year = data.getBirthYear();
+        month = data.getBirthMonth();
+        day = data.getBirthDay();
     }
 
     public void selectDate() {
-        this.locator.scrollTo().click();
-        $(".react-datepicker__year-select").selectOption(this.year);
-        $(".react-datepicker__month-select").selectOption(this.month);
-        $(".react-datepicker__day.react-datepicker__day--0" + this.day).click();
+        locator.scrollTo().click();
+        $(".react-datepicker__year-select").selectOption(year);
+        $(".react-datepicker__month-select").selectOption(month);
+        $(".react-datepicker__day.react-datepicker__day--0" + day).click();
     }
 
 

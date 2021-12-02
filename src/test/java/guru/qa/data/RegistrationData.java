@@ -34,21 +34,21 @@ public class RegistrationData {
         LocalDate birthDate = getRandomBirthday();
         String[] randomStateCity = getMapRandomCouple(STATESxCITIES);
 
-        this.firstName = faker.name().firstName();
-        this.lastName = faker.name().lastName();
-        this.email = faker.internet().emailAddress();
-        this.gender = GENDERS[random.nextInt(GENDERS.length)];
-        this.number = faker.regexify("[0-9]{10}");
-        this.birthYear = String.valueOf(birthDate.getYear());
-        this.birthMonth = birthDate.getMonth().toString();
-        this.birthDay = String.valueOf(birthDate.getDayOfMonth());
-        this.address = faker.address().cityName() + ", "
+        firstName = faker.name().firstName();
+        lastName = faker.name().lastName();
+        email = faker.internet().emailAddress();
+        gender = GENDERS[random.nextInt(GENDERS.length)];
+        number = faker.regexify("[0-9]{10}");
+        birthYear = String.valueOf(birthDate.getYear());
+        birthMonth = birthDate.getMonth().toString();
+        birthDay = String.valueOf(birthDate.getDayOfMonth());
+        address = faker.address().cityName() + ", "
                 + faker.address().streetAddress() + ", "
                 + faker.address().buildingNumber();
-        this.hobbies = getRandomSubArray(HOBBIES);
-        this.subjects = getRandomSubArray(SUBJECTS);
-        this.state = randomStateCity[0];
-        this.city = randomStateCity[1];
+        hobbies = getRandomSubArray(HOBBIES);
+        subjects = getRandomSubArray(SUBJECTS);
+        state = randomStateCity[0];
+        city = randomStateCity[1];
     }
     //_________________________________________________________________
 
