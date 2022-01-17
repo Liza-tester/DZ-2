@@ -43,15 +43,5 @@ dependencies {
 tasks.withType(Test) {
     systemProperties(System.getProperties())
     useJUnitPlatform()
-
 }
 
-task owner_tests(type: Test){
-    useJUnitPlatform{
-        includeTags "properties"
-
-        /* Запуск с параметром:
-        gradle clean owner_tests -Durl="..."
-         */
-    }
-}

@@ -21,7 +21,7 @@ public class BaseTest {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         //_______Url with Owner properties______________________________________________
-        String url = System.getProperty("url", "selenoid.autotests.cloud/wd/hub/");
+        String url = System.getProperty("url");
         String login = OwnerTests.credentials.login();
         String password = OwnerTests.credentials.password();
         String path = format("https://%s:%s@%s", login, password, url);

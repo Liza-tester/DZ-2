@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test;
 public class FirstTest extends BaseTest {
 
     @Test
-    @Tag("properties")
     void firstTest() {
 
         RegistrationPage registrationPage = new RegistrationPage(new RegistrationData());
