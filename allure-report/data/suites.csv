@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Jan 18 06:57:23 MSK 2022","Tue Jan 18 06:57:34 MSK 2022","11019","","guru.qa.test.PositiveTests","","guru.qa.test.PositiveTests","essentialElementsTest","essentialElementsTest()",""
+"passed","Tue Jan 18 06:57:34 MSK 2022","Tue Jan 18 06:57:58 MSK 2022","23954","","guru.qa.test.PositiveTests","","guru.qa.test.PositiveTests","allElementsTest","allElementsTest()",""
+"passed","Tue Jan 18 06:56:48 MSK 2022","Tue Jan 18 06:57:23 MSK 2022","35084","","guru.qa.test.NegativeTests","","guru.qa.test.NegativeTests","FirstNameElementTest","FirstNameElementTest()",""

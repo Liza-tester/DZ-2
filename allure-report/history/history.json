@@ -1,0 +1,60 @@
+{
+  "f828c91514c8f5a3a5ab23e26aca472a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e63ff2d51fc9816d",
+      "status" : "failed",
+      "statusDetails" : "Element should have exact text 'none' {By.xpath: //td[text()='Date of Birth']/following-sibling::*}\r\nElement: '<td>18 January,2022</td>'\r\nActual value: 18 January,2022\r\nScreenshot: file:/C:/Users/Professional/IdeaProjects/DZ-2/build/reports/tests/1642478252605.0.png\r\nPage source: file:/C:/Users/Professional/IdeaProjects/DZ-2/build/reports/tests/1642478252605.0.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1642478243911,
+        "stop" : 1642478254930,
+        "duration" : 11019
+      }
+    } ]
+  },
+  "30ba74c607a440a61fdd3fa5416b051f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8dde65e5b5c85e85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642478254962,
+        "stop" : 1642478278916,
+        "duration" : 23954
+      }
+    } ]
+  },
+  "bcfc2e3ad19bdc38e8bfb2193ad2ddfa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78625dee8e5916e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642478208247,
+        "stop" : 1642478243331,
+        "duration" : 35084
+      }
+    } ]
+  }
+}

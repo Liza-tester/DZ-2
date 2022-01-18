@@ -1,0 +1,894 @@
+{
+  "uid" : "8dde65e5b5c85e85",
+  "name" : "allElementsTest()",
+  "fullName" : "guru.qa.test.PositiveTests.allElementsTest",
+  "historyId" : "30ba74c607a440a61fdd3fa5416b051f",
+  "time" : {
+    "start" : 1642478254962,
+    "stop" : 1642478278916,
+    "duration" : 23954
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://demoqa.com/automation-practice-form",
+      "time" : {
+        "start" : 1642478255090,
+        "stop" : 1642478255817,
+        "duration" : 727
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#firstName\") set value(Donnell)",
+      "time" : {
+        "start" : 1642478255817,
+        "stop" : 1642478256347,
+        "duration" : 530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#lastName\") set value(Hodkiewicz)",
+      "time" : {
+        "start" : 1642478256347,
+        "stop" : 1642478256899,
+        "duration" : 552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#userEmail\") set value(shela.runolfsson@gmail.com)",
+      "time" : {
+        "start" : 1642478256899,
+        "stop" : 1642478257451,
+        "duration" : 552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Female\") click()",
+      "time" : {
+        "start" : 1642478257451,
+        "stop" : 1642478257888,
+        "duration" : 437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#userNumber\") set value(6043523238)",
+      "time" : {
+        "start" : 1642478257888,
+        "stop" : 1642478258421,
+        "duration" : 533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#dateOfBirthInput\") scroll to()",
+      "time" : {
+        "start" : 1642478258421,
+        "stop" : 1642478258925,
+        "duration" : 504
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#dateOfBirthInput\") click()",
+      "time" : {
+        "start" : 1642478258925,
+        "stop" : 1642478259425,
+        "duration" : 500
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".react-datepicker__year-select\") select option(1973)",
+      "time" : {
+        "start" : 1642478259433,
+        "stop" : 1642478260108,
+        "duration" : 675
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".react-datepicker__month-select\") select option(September)",
+      "time" : {
+        "start" : 1642478260108,
+        "stop" : 1642478260787,
+        "duration" : 679
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".react-datepicker__day.react-datepicker__day--001\") click()",
+      "time" : {
+        "start" : 1642478260787,
+        "stop" : 1642478261188,
+        "duration" : 401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") scroll to()",
+      "time" : {
+        "start" : 1642478261188,
+        "stop" : 1642478261509,
+        "duration" : 321
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") set value(Accounting)",
+      "time" : {
+        "start" : 1642478261509,
+        "stop" : 1642478262099,
+        "duration" : 590
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") press enter()",
+      "time" : {
+        "start" : 1642478262099,
+        "stop" : 1642478262504,
+        "duration" : 405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") set value(Arts)",
+      "time" : {
+        "start" : 1642478262504,
+        "stop" : 1642478262989,
+        "duration" : 485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") press enter()",
+      "time" : {
+        "start" : 1642478262989,
+        "stop" : 1642478263326,
+        "duration" : 337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") set value(Social Studies)",
+      "time" : {
+        "start" : 1642478263326,
+        "stop" : 1642478263844,
+        "duration" : 518
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") press enter()",
+      "time" : {
+        "start" : 1642478263844,
+        "stop" : 1642478264211,
+        "duration" : 367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") set value(Biology)",
+      "time" : {
+        "start" : 1642478264219,
+        "stop" : 1642478264734,
+        "duration" : 515
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") press enter()",
+      "time" : {
+        "start" : 1642478264734,
+        "stop" : 1642478265303,
+        "duration" : 569
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") set value(Physics)",
+      "time" : {
+        "start" : 1642478265303,
+        "stop" : 1642478265814,
+        "duration" : 511
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") press enter()",
+      "time" : {
+        "start" : 1642478265814,
+        "stop" : 1642478266226,
+        "duration" : 412
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") set value(Commerce)",
+      "time" : {
+        "start" : 1642478266226,
+        "stop" : 1642478266763,
+        "duration" : 537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") press enter()",
+      "time" : {
+        "start" : 1642478266763,
+        "stop" : 1642478267164,
+        "duration" : 401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") set value(Economics)",
+      "time" : {
+        "start" : 1642478267164,
+        "stop" : 1642478267687,
+        "duration" : 523
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") press enter()",
+      "time" : {
+        "start" : 1642478267687,
+        "stop" : 1642478268089,
+        "duration" : 402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") set value(Civics)",
+      "time" : {
+        "start" : 1642478268089,
+        "stop" : 1642478268638,
+        "duration" : 549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") press enter()",
+      "time" : {
+        "start" : 1642478268638,
+        "stop" : 1642478268986,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") set value(English)",
+      "time" : {
+        "start" : 1642478268986,
+        "stop" : 1642478269510,
+        "duration" : 524
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") press enter()",
+      "time" : {
+        "start" : 1642478269510,
+        "stop" : 1642478269864,
+        "duration" : 354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#hobbiesWrapper\") scroll to()",
+      "time" : {
+        "start" : 1642478269864,
+        "stop" : 1642478270196,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#hobbiesWrapper/by text: Sports\") click()",
+      "time" : {
+        "start" : 1642478270196,
+        "stop" : 1642478270697,
+        "duration" : 501
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#hobbiesWrapper/by text: Music\") click()",
+      "time" : {
+        "start" : 1642478270697,
+        "stop" : 1642478271207,
+        "duration" : 510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#uploadPicture\") upload from classpath(picture.jpg)",
+      "time" : {
+        "start" : 1642478271207,
+        "stop" : 1642478272085,
+        "duration" : 878
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#currentAddress\") set value(North Stacee, 6763 Kohler Shoal, 3469)",
+      "time" : {
+        "start" : 1642478272085,
+        "stop" : 1642478272617,
+        "duration" : 532
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#state\") scroll to()",
+      "time" : {
+        "start" : 1642478272617,
+        "stop" : 1642478272940,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#state\") click()",
+      "time" : {
+        "start" : 1642478272940,
+        "stop" : 1642478273322,
+        "duration" : 382
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Rajasthan\") click()",
+      "time" : {
+        "start" : 1642478273322,
+        "stop" : 1642478273725,
+        "duration" : 403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#city\") scroll to()",
+      "time" : {
+        "start" : 1642478273725,
+        "stop" : 1642478274059,
+        "duration" : 334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#city\") click()",
+      "time" : {
+        "start" : 1642478274059,
+        "stop" : 1642478274425,
+        "duration" : 366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"by text: Jaiselmer\") click()",
+      "time" : {
+        "start" : 1642478274425,
+        "stop" : 1642478274810,
+        "duration" : 385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#submit\") scroll to()",
+      "time" : {
+        "start" : 1642478274810,
+        "stop" : 1642478275149,
+        "duration" : 339
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#submit\") click()",
+      "time" : {
+        "start" : 1642478275149,
+        "stop" : 1642478275552,
+        "duration" : 403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //td[text()='Student Name']/following-sibling::*\") should have(exact text 'Donnell Hodkiewicz')",
+      "time" : {
+        "start" : 1642478275552,
+        "stop" : 1642478275772,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //td[text()='Student Email']/following-sibling::*\") should have(exact text 'shela.runolfsson@gmail.com')",
+      "time" : {
+        "start" : 1642478275772,
+        "stop" : 1642478276003,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //td[text()='Gender']/following-sibling::*\") should have(exact text 'Female')",
+      "time" : {
+        "start" : 1642478276003,
+        "stop" : 1642478276226,
+        "duration" : 223
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //td[text()='Mobile']/following-sibling::*\") should have(exact text '6043523238')",
+      "time" : {
+        "start" : 1642478276226,
+        "stop" : 1642478276459,
+        "duration" : 233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //td[text()='Date of Birth']/following-sibling::*\") should have(exact text '01 September,1973')",
+      "time" : {
+        "start" : 1642478276459,
+        "stop" : 1642478276684,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //td[text()='Subjects']/following-sibling::*\") should have(exact text 'Accounting, Arts, Social Studies, Biology, Physics, Commerce, Economics, Civics, English')",
+      "time" : {
+        "start" : 1642478276684,
+        "stop" : 1642478276908,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //td[text()='Hobbies']/following-sibling::*\") should have(exact text 'Sports, Music')",
+      "time" : {
+        "start" : 1642478276910,
+        "stop" : 1642478277135,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //td[text()='Picture']/following-sibling::*\") should have(exact text 'picture.jpg')",
+      "time" : {
+        "start" : 1642478277135,
+        "stop" : 1642478277363,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //td[text()='Address']/following-sibling::*\") should have(exact text 'North Stacee, 6763 Kohler Shoal, 3469')",
+      "time" : {
+        "start" : 1642478277363,
+        "stop" : 1642478277587,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //td[text()='State and City']/following-sibling::*\") should have(exact text 'Rajasthan Jaiselmer')",
+      "time" : {
+        "start" : 1642478277587,
+        "stop" : 1642478277823,
+        "duration" : 236
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "986d691714c741b5",
+      "name" : "Last screenshot",
+      "source" : "986d691714c741b5.png",
+      "type" : "image/png",
+      "size" : 272200
+    }, {
+      "uid" : "7c3fed40fb5a2f6b",
+      "name" : "Page source",
+      "source" : "7c3fed40fb5a2f6b.html",
+      "type" : "text/plain",
+      "size" : 58253
+    }, {
+      "uid" : "8ee29ffba0a9b588",
+      "name" : "Browser console logs",
+      "source" : "8ee29ffba0a9b588.bin",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5e1fc9ba658b9640",
+      "name" : "Video",
+      "source" : "5e1fc9ba658b9640.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 53,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:guru.qa.test.PositiveTests]/[method:allElementsTest()]"
+  }, {
+    "name" : "host",
+    "value" : "User-PC"
+  }, {
+    "name" : "thread",
+    "value" : "13576@User-PC.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "guru.qa.test.PositiveTests"
+  }, {
+    "name" : "testClass",
+    "value" : "guru.qa.test.PositiveTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "allElementsTest"
+  }, {
+    "name" : "suite",
+    "value" : "guru.qa.test.PositiveTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8dde65e5b5c85e85.json",
+  "parameterValues" : [ ]
+}

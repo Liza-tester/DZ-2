@@ -1,0 +1,174 @@
+{
+  "uid" : "78625dee8e5916e6",
+  "name" : "FirstNameElementTest()",
+  "fullName" : "guru.qa.test.NegativeTests.FirstNameElementTest",
+  "historyId" : "bcfc2e3ad19bdc38e8bfb2193ad2ddfa",
+  "time" : {
+    "start" : 1642478208247,
+    "stop" : 1642478243331,
+    "duration" : 35084
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://demoqa.com/automation-practice-form",
+      "time" : {
+        "start" : 1642478209528,
+        "stop" : 1642478240184,
+        "duration" : 30656
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#firstName\") set value(Jefferey)",
+      "time" : {
+        "start" : 1642478240200,
+        "stop" : 1642478240974,
+        "duration" : 774
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#submit\") scroll to()",
+      "time" : {
+        "start" : 1642478240974,
+        "stop" : 1642478241329,
+        "duration" : 355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#submit\") click()",
+      "time" : {
+        "start" : 1642478241329,
+        "stop" : 1642478241784,
+        "duration" : 455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"#firstName\") should be(visible)",
+      "time" : {
+        "start" : 1642478241803,
+        "stop" : 1642478242096,
+        "duration" : 293
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5e703acc9a4650ab",
+      "name" : "Last screenshot",
+      "source" : "5e703acc9a4650ab.png",
+      "type" : "image/png",
+      "size" : 331484
+    }, {
+      "uid" : "782d3231e98b75b7",
+      "name" : "Page source",
+      "source" : "782d3231e98b75b7.html",
+      "type" : "text/plain",
+      "size" : 49095
+    }, {
+      "uid" : "af9fe04e05cdcbc6",
+      "name" : "Browser console logs",
+      "source" : "af9fe04e05cdcbc6.bin",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "3b7b4b875ff5fcb0",
+      "name" : "Video",
+      "source" : "3b7b4b875ff5fcb0.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:guru.qa.test.NegativeTests]/[method:FirstNameElementTest()]"
+  }, {
+    "name" : "host",
+    "value" : "User-PC"
+  }, {
+    "name" : "thread",
+    "value" : "13576@User-PC.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "guru.qa.test.NegativeTests"
+  }, {
+    "name" : "testClass",
+    "value" : "guru.qa.test.NegativeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "FirstNameElementTest"
+  }, {
+    "name" : "suite",
+    "value" : "guru.qa.test.NegativeTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78625dee8e5916e6.json",
+  "parameterValues" : [ ]
+}

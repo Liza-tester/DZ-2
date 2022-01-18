@@ -1,0 +1,64 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "User-PC",
+    "children" : [ {
+      "name" : "13576@User-PC.Test worker(1)",
+      "children" : [ {
+        "name" : "allElementsTest()",
+        "uid" : "8dde65e5b5c85e85",
+        "parentUid" : "38fa3522dff6ead83024a1c6ec9fd8e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642478254962,
+          "stop" : 1642478278916,
+          "duration" : 23954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "essentialElementsTest()",
+        "uid" : "e63ff2d51fc9816d",
+        "parentUid" : "38fa3522dff6ead83024a1c6ec9fd8e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642478243911,
+          "stop" : 1642478254930,
+          "duration" : 11019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "FirstNameElementTest()",
+        "uid" : "78625dee8e5916e6",
+        "parentUid" : "38fa3522dff6ead83024a1c6ec9fd8e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642478208247,
+          "stop" : 1642478243331,
+          "duration" : 35084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38fa3522dff6ead83024a1c6ec9fd8e2"
+    } ],
+    "uid" : "78782e703c241e037017901794db315f"
+  } ]
+}

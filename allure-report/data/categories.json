@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should have exact text 'none' {By.xpath: //td[text()='Date of Birth']/following-sibling::*}\r\nElement: '<td>18 January,2022</td>'\r\nActual value: 18 January,2022\r\nScreenshot: file:/C:/Users/Professional/IdeaProjects/DZ-2/build/reports/tests/1642478252605.0.png\r\nPage source: file:/C:/Users/Professional/IdeaProjects/DZ-2/build/reports/tests/1642478252605.0.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "essentialElementsTest()",
+        "uid" : "e63ff2d51fc9816d",
+        "parentUid" : "dd106139992f0f97608138e337621c8c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642478243911,
+          "stop" : 1642478254930,
+          "duration" : 11019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd106139992f0f97608138e337621c8c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

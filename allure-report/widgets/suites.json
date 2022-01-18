@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "7aeb019e3e95c030237eee84fe40bcc8",
+    "name" : "guru.qa.test.PositiveTests",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "f483a1d17ae82ce6ce14ecb6077e9f18",
+    "name" : "guru.qa.test.NegativeTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

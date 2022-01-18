@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "guru.qa.test.NegativeTests",
+    "children" : [ {
+      "name" : "FirstNameElementTest()",
+      "uid" : "78625dee8e5916e6",
+      "parentUid" : "f483a1d17ae82ce6ce14ecb6077e9f18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642478208247,
+        "stop" : 1642478243331,
+        "duration" : 35084
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f483a1d17ae82ce6ce14ecb6077e9f18"
+  }, {
+    "name" : "guru.qa.test.PositiveTests",
+    "children" : [ {
+      "name" : "essentialElementsTest()",
+      "uid" : "e63ff2d51fc9816d",
+      "parentUid" : "7aeb019e3e95c030237eee84fe40bcc8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1642478243911,
+        "stop" : 1642478254930,
+        "duration" : 11019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "allElementsTest()",
+      "uid" : "8dde65e5b5c85e85",
+      "parentUid" : "7aeb019e3e95c030237eee84fe40bcc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642478254962,
+        "stop" : 1642478278916,
+        "duration" : 23954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7aeb019e3e95c030237eee84fe40bcc8"
+  } ]
+}
