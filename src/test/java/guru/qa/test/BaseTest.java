@@ -17,7 +17,7 @@ public class BaseTest {
 
         SelenideLogger.addListener("allure", new AllureSelenide());
 
-     /*   //_______Selenoid Usage__________________________________________________________
+       //_______Selenoid Usage__________________________________________________________
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub/";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -27,7 +27,7 @@ public class BaseTest {
         Configuration.browserCapabilities = capabilities;
         //_______________________________________________________________________________
 
-      */
+
 
     }
 
