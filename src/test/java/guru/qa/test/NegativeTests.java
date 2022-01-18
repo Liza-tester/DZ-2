@@ -4,7 +4,7 @@ import guru.qa.data.RegistrationData;
 import guru.qa.pages.RegistrationPage;
 import org.junit.jupiter.api.Test;
 
-public class NegativeTests {
+public class NegativeTests extends BaseTest{
 
     @Test
     void FirstNameElementTest() {
