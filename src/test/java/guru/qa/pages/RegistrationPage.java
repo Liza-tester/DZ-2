@@ -4,6 +4,7 @@ import com.codeborne.selenide.SelenideElement;
 import guru.qa.data.RegistrationData;
 
 import static com.codeborne.selenide.Condition.exactText;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -129,7 +130,7 @@ public class RegistrationPage {
     }
     //_____________________________________________________
 
-    private void checkResultTableValue(String key, String value) {
+    public void checkResultTableValue(String key, String value) {
         $x("//td[text()='" + key + "']/following-sibling::*").shouldHave(exactText(value));
     }
 
@@ -149,6 +150,9 @@ public class RegistrationPage {
         checkResultTableValue("Picture", data.getFileURL());
         checkResultTableValue("Address", data.getAddress());
         checkResultTableValue("State and City", data.getState() + " " + data.getCity());
+    }
+    public void checkFirstNameElementIsVisible(){
+        firstNameInput.shouldBe(visible);
     }
     //________________________________________________________
 }

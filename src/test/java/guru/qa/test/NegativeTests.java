@@ -4,18 +4,17 @@ import guru.qa.data.RegistrationData;
 import guru.qa.pages.RegistrationPage;
 import org.junit.jupiter.api.Test;
 
-
-public class FirstTest extends BaseTest {
+public class NegativeTests {
 
     @Test
-    void firstTest() {
+    void FirstNameElementTest() {
 
         RegistrationPage registrationPage = new RegistrationPage(new RegistrationData());
 
         registrationPage.openPage()
-                .fillEntireForm()
-                .pressSubmit();
-        registrationPage.checkResultTable();
+                .typeFirstName()
+                .pressSubmit()
+                .checkFirstNameElementIsVisible();
     }
 
 }
